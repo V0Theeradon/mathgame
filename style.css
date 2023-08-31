@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 20px solid #b3b3b3;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  button {
+    margin-top: 10px;
+    background-color: rgb(82, 186, 179);
+    border-radius: 6px;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    text-transform: uppercase;
+    width: 100px;
+    cursor: pointer;
+  } 
+  #answer {
+    width: 80%;
+    padding: 11px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  #reset {
+    background-color: red;
+    transition: background-color 0.3s;
+  }
+ 
+  .inline {
+    justify-content: space-between;
+    display: flex;
+    gap: 10px;
+}

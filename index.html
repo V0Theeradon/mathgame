@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Math Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>เกมส์คณิตศาสตร์</h1>
+        <div class="inline">
+        <button onclick="generateQuestion()">Start</button>
+            <p id="score" id="questionCount">Score: 0</p>
+            <p id="questionCount">Question: 0</p>
+        </div>
+    <p id="question">Press "Start" to begin.</p>
+        <button onclick="changeOperator('+')">+</button>
+        <button onclick="changeOperator('-')">-</button>
+        <button onclick="changeOperator('*')">*</button>
+        <button onclick="changeOperator('/')">/</button>
+        <p id="answer"><input type="number" id="userAnswer" placeholder="Your answer"></p>
+        <p id="result"></p>
+        
+        <button onclick="checkAnswer()">Answer</button><br/>
+    <button id="reset">Reset Game</button>
+      </div>
+      <script src="script.js"></script>
+</body>
+</html>
